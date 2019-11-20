@@ -27,3 +27,8 @@ It is assumed high way only safety mode
 
 ## mixed mode
 Some area include different mode cars.
+
+
+# Japanese only
+
+https://www.npa.go.jp/koutsuu/kikaku/regulation_wg/teigen/siryou2.pdf
