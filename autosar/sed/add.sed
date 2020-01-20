@@ -1,0 +1,31 @@
+s/arobject/ar object/g
+s/canif/can if/g
+s/tcpip/tcp ip/g
+s/returntype/return type/g
+s/frif/fr if/g
+s/arelement/ar element/g
+s/someip/some ip/g
+s/linif/lin if/g
+s/ethif/eth if/g
+s/noexcept/no except/g
+s/splitkey/split key/g
+s/cantp/can tp/g
+s/frnm/fr nm/g
+s/udpnm/udp nm/g
+s/someipsd/some ip sd/g
+s/ramtst/ram tst/g
+s/portinterface/port interface/g
+s/cantrcv/can trcv/g
+s/ethtrcv/eth trcv/g
+s/frtrcv/fr trcv/g
+s/memif/mem if/g
+s/cannm/can nm/g
+s/inout/in out/g
+s/wakeup/wake up/g
+s/callback/call back/g
+s/shutdown/shut down/g
+s/osektime/osek time/g
+s/posixerrordomain/posix error domain/g
+s/ieeexplore/ieee xplore/g
+s/getieee/get ieee/g
+s/atptype/atp type/g
