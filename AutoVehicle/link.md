@@ -4,101 +4,128 @@ https://assets.kpmg/content/dam/kpmg/jp/pdf/2019/jp-autonomous-vehicles-readines
 
 Endnotes
 1 ‘Honda Joins with Cruise and General Motors to Build New Autonomous Vehicle’, Honda News, 3 October 2018: http://hondanews. com/releases/honda-joins-with-cruise-and- general-motors-to-build-new-autonomous- vehicle and ‘Ford Creates ‘Ford Autonomous Vehicles LLC’; Strengthens Global Organization to Accelerate Progress, Improve Fitness’, Ford Media Center, 24 July 2018: https://media.ford.com/content/fordmedia/ fna/us/en/news/2018/07/24/ford-creates-ford- autonomous-vehicles-llc.html
+
 2 Global status report on road safety 2018, World Health Organization, December 2018. https://www.who.int/violence_injury_ prevention/road_safety_status/2018/en/
+
 3 ‘Human error as a cause of vehicle crashes’, Bryant Walker Smith, Center for Internet and Society at Stanford Law School, 18 December 2013: https://cyberlaw.stanford. edu/blog/2013/12/human-error-cause-vehicle- crashes
+
 4 ‘Uber halts autonomous car tests after
 fatal crash in Arizona’, Mark Bergen and
 Eric Newcomer, Bloomberg, 19 March
 2018: https://www.bloomberg.com/news/ articles/2018-03-19/uber-autonomous-car- involved-in-fatal-crash-in-arizona and ‘Tesla's Autopilot Was Involved in Another Deadly Car Crash’, Jack Stewart, Wired, 30 March 2018: https://www.wired.com/story/tesla-autopilot- self-driving-crash-california/
+
 5 ‘2017 safest year on record for commercial passenger air travel: groups’, David Shepardson, Reuters, 1 January 2018: https://www.reuters. com/article/us-aviation-safety/2017-safest-year- on-record-for-commercial-passenger-air-travel- groups-idUSKBN1EQ17L
+
 6 ‘Autonomy delivers: An oncoming revolution in the movement of goods,’ KPMG LLP, November 2018: https://advisory.kpmg.us/content/dam/ advisory/en/pdfs/2018/autonomy-delivers-final- secured-web.pdf
+
 7 ‘New survey data reveals increases in driver compensation’, American Trucking Association, 27 March 2018: https://www.trucking.org/ article/New-Survey-Data-Reveals-Increases-in- Driver-Compensation
+
 8 The automobile industry pocket guide 2018- 19, European Automobile Manufacturers Association: https://www.acea.be/ publications/article/acea-pocket-guide
-9 ‘UK and seven major companies join campaign for vehicle electrification’, International Energy Agency, 11 September 2018: https://www.iea.org/newsroom/ news/2018/september/uk-and-seven- major-companies-join-campaign-for-vehicle- electrification.html
+
+9 ‘UK and seven major companies join campaign for vehicle electrification’, International Energy Agency, 11 September 2018: https://www.iea.org/newsroom/news/2018/september/uk-and-seven- major-companies-join-campaign-for-vehicle- electrification.html
+
 10 ‘Reinventing the wheel’, Economist Intelligence Unit, June 2018: https:// innovationmatters.economist.com/ reinventing-the-wheel-moving-eiu
-11
-12
-13
-14
-15
-16 17
-18
-19
+
+11 Marketplace of change: automobile insurance in the era of autonomous vehicles, KPMG in the US, October 2015: https://assets.kpmg/content/dam/kpmg/ pdf/2016/06/id-market-place-of-change- automobile-insurance-in-the-era-of- autonomous-vehicles.pdf
 20
-21
-Marketplace of change: automobile insurance in the era of autonomous vehicles, KPMG in the US, October 2015: https://assets.kpmg/content/dam/kpmg/ pdf/2016/06/id-market-place-of-change- automobile-insurance-in-the-era-of- autonomous-vehicles.pdf
-‘UK motor insurance market could shrink up to 41% by 2040 — Bank
+
+12 ‘UK motor insurance market could shrink up to 41% by 2040 — Bank
 of England’, Louie Bacani, Insurance Business, 20 March 2017: https://www. insurancebusinessmag.com/uk/news/ technology/uk-motor-insurance-market- could-shrink-up-to-41-by-2040--bank-of- england-63108.aspx
-‘Lovomutprøvingavselvkjørendekjøretøy’ (text of new law in Norwegian), Lovdata Foundation: https://lovdata.no/dokument/NL/ lov/2017-12-15-112
-‘Driverless car tests roll out on south China streets’, Charles Clover, Yuan Yang and Sherry Fei Ju, Financial Times, 5 February 2018: https://www.ft.com/content/8481ee48- 0975-11e8-8eb7-42f857ea9f09
-‘Toespraak van minister Van Nieuwenhuizenbij de opening van de Intertraffic Beurs‘, speech by Cora Van Nieuwenhuizen (in English), Government of the Netherlands, 26 March 2018: https://www.rijksoverheid.nl/regering/ bewindspersonen/cora-van-nieuwenhuizen/ documenten/toespraken/2018/03/26/ speech-by-cora-van-nieuwenhuizen-minister- of-infrastructure-and-water-management-at- the-opening-of-intertraffic-amsterdam-20- march-2018
-‘Uber halts autonomous car tests after fatal crash in Arizona’ as above.
-‘California scraps safety driver rules for self-driving cars’, Daisuke Wakabayashi, New York Times, 26 February 2018: https:// www.nytimes.com/2018/02/26/technology/ driverless-cars-california-rules.html
-‘EU motors ahead with rules for self-driving cars’, Peter Campbell, Financial Times, 14 May 2018: https://www.ft.com/content/f3a76e4c- 5772-11e8-b8b2-d6ceb45fa9d0
-‘Japan looks to launch driverless car system in Tokyo by 2020’, Stanley White, Reuters,
+
+13 ‘Lovomutprøvingavselvkjørendekjøretøy’ (text of new law in Norwegian), Lovdata Foundation: https://lovdata.no/dokument/NL/ lov/2017-12-15-112
+
+14 ‘Driverless car tests roll out on south China streets’, Charles Clover, Yuan Yang and Sherry Fei Ju, Financial Times, 5 February 2018: https://www.ft.com/content/8481ee48- 0975-11e8-8eb7-42f857ea9f09
+
+15 ‘Toespraak van minister Van Nieuwenhuizenbij de opening van de Intertraffic Beurs‘, speech by Cora Van Nieuwenhuizen (in English), Government of the Netherlands, 26 March 2018: https://www.rijksoverheid.nl/regering/bewindspersonen/cora-van-nieuwenhuizen/documenten/toespraken/2018/03/26/speech-by-cora-van-nieuwenhuizen-minister-of-infrastructure-and-water-management-at-the-opening-of-intertraffic-amsterdam-20-march-2018
+
+16 ‘Uber halts autonomous car tests after fatal crash in Arizona’ as above.
+
+17 ‘California scraps safety driver rules for self-driving cars’, Daisuke Wakabayashi, New York Times, 26 February 2018: https:// www.nytimes.com/2018/02/26/technology/ driverless-cars-california-rules.html
+
+18 ‘EU motors ahead with rules for self-driving cars’, Peter Campbell, Financial Times, 14 May 2018: https://www.ft.com/content/f3a76e4c- 5772-11e8-b8b2-d6ceb45fa9d0
+
+19 ‘Japan looks to launch driverless car system in Tokyo by 2020’, Stanley White, Reuters,
 4 June 2018: https://www.reuters.com/article/ us-japan-economy-strategy/japan-looks-to- launch-driverless-car-system-in-tokyo-by-2020- idUSKCN1J00VN
-‘Ford Creates ‘Ford Autonomous Vehicles LLC’; Strengthens Global Organization to Accelerate Progress, Improve Fitness’, Ford Media Center, 24 July 2018: https:// media.ford.com/content/fordmedia/fna/ us/en/news/2018/07/24/ford-creates-ford- autonomous-vehicles-llc.html
-‘Uber’s Vision of Self-Driving Cars Begins
+
+20 ‘Ford Creates ‘Ford Autonomous Vehicles LLC’; Strengthens Global Organization to Accelerate Progress, Improve Fitness’, Ford Media Center, 24 July 2018: https:// media.ford.com/content/fordmedia/fna/ us/en/news/2018/07/24/ford-creates-ford- autonomous-vehicles-llc.html
+
+21 ‘Uber’s Vision of Self-Driving Cars Begins
 to Blur’, Mike Isaac, Daisuke Wakabayashi and Kate Conger, 19 August 2018, New York Times: https://www.nytimes.com/2018/08/19/ technology/uber-self-driving-cars.html
-22
-23
-24
-25
-26
-27
-28 29
-30
-31
-32
-Automated and electric vehicles act 2018,
+
+22 Automated and electric vehicles act 2018,
 House of Commons library, 15 August 2018: https://researchbriefings.parliament.uk/ ResearchBriefing/Summary/CBP-8118
-‘Yandex launches the first autonomous ride- hailing service in Europe’,Yandex, 28 August 2018: https://yandex.com/company/blog/ yandex-launches-the-first-autonomous-ride- hailing-service-in-europe
-‘Alphabet’s Waymo begins charging passengers for self-driving cars’, Tim Bradshaw and Richard Waters, Financial Times, 26 October 2018: https://www. ft.com/content/7980e98e-d8b6-11e8-a854- 33d6f82e62f8
-‘Office of Future Transport Technologies revealed’, Australian deputy prime minister, 4 October 2018: http://minister.infrastructure. gov.au/mccormack/releases/2018/october/ mm178_2018.aspx
-‘Ford, Walmart and Postmates team up for self-driving goods delivery’, Brian Wolf, Ford, 14 November 2018: https://media.ford.com/ content/fordmedia/fna/us/en/news/2018/11/14/ ford--walmart-and-postmates-team-up-for- self-driving-goods-deliv.html and Custom Autonomous Cargo Vans to Deliver Groceries in Walmart’s Pilot with Udelv, Walmart, January 2019: https://news.walmart. com/2019/01/08/custom-autonomous-cargo- vans-to-deliver-groceries-in-walmarts-pilot- with-udelv
-‘Electric driverless truck set to gain approval for public roads’, Patrick McGee, Financial Times, 2 December 2018: https://www. ft.com/content/f76ef090-f47f-11e8-ae55- df4bf40f9d0d
-‘Toespraak van minister Van Nieuwenhuizenbij de opening van de Intertraffic Beurs‘ as above
-‘Self-driving vehicles’ (in English), Government of the Netherlands: https://www.government. nl/topics/mobility-public-transport-and-road- safety/self-driving-vehicles
-‘VDL scoort miljoenenorders voor productie zelfrijdende voertuigen’ (in Dutch), Het Financieele Dagblad, 24 October 2017: https://fd.nl/ondernemen/1224174/vdl-scoort- miljoenenorders-voor-productie-zelfrijdende- voertuigen
-‘NTU, LTA and JTC unveil Singapore’s first autonomous vehicle test centre’, Land Transport Authority, 22 November 2017: https://www.lta.gov.sg/apps/news/page. aspx?c=2&id=10ceddae-472a-4920-8d4c- e73babfcecb0
-‘A self-driving shuttle bus will hit the road at NUS from March next year — here’s what you need to know’, Sean Lim, 12 November 2018, Business Insider Singapore: https://www. businessinsider.sg/a-self-driving-shuttle-bus- will-hit-the-road-at-nus-from-march-next-year- heres-what-you-need-to-know/
+
+23 ‘Yandex launches the first autonomous ride- hailing service in Europe’,Yandex, 28 August 2018: https://yandex.com/company/blog/ yandex-launches-the-first-autonomous-ride- hailing-service-in-europe
+
+24 ‘Alphabet’s Waymo begins charging passengers for self-driving cars’, Tim Bradshaw and Richard Waters, Financial Times, 26 October 2018: https://www. ft.com/content/7980e98e-d8b6-11e8-a854- 33d6f82e62f8
+
+25 ‘Office of Future Transport Technologies revealed’, Australian deputy prime minister, 4 October 2018: http://minister.infrastructure. gov.au/mccormack/releases/2018/october/ mm178_2018.aspx
+
+26 ‘Ford, Walmart and Postmates team up for self-driving goods delivery’, Brian Wolf, Ford, 14 November 2018: https://media.ford.com/content/fordmedia/fna/us/en/news/2018/11/14/ford--walmart-and-postmates-team-up-for-self-driving-goods-deliv.html  and Custom Autonomous Cargo Vans to Deliver Groceries in Walmart’s Pilot with Udelv, Walmart, January 2019: https://news.walmart. com/2019/01/08/custom-autonomous-cargo- vans-to-deliver-groceries-in-walmarts-pilot- with-udelv
+
+27 ‘Electric driverless truck set to gain approval for public roads’, Patrick McGee, Financial Times, 2 December 2018: https://www. ft.com/content/f76ef090-f47f-11e8-ae55- df4bf40f9d0d
+
+28 ‘Toespraak van minister Van Nieuwenhuizenbij de opening van de Intertraffic Beurs‘ as above
+
+29 ‘Self-driving vehicles’ (in English), Government of the Netherlands: https://www.government. nl/topics/mobility-public-transport-and-road- safety/self-driving-vehicles
+
+30 ‘VDL scoort miljoenenorders voor productie zelfrijdende voertuigen’ (in Dutch), Het Financieele Dagblad, 24 October 2017: https://fd.nl/ondernemen/1224174/vdl-scoort- miljoenenorders-voor-productie-zelfrijdende- voertuigen
+
+31 ‘NTU, LTA and JTC unveil Singapore’s first autonomous vehicle test centre’, Land Transport Authority, 22 November 2017: https://www.lta.gov.sg/apps/news/page. aspx?c=2&id=10ceddae-472a-4920-8d4c- e73babfcecb0
+
+32 ‘A self-driving shuttle bus will hit the road at NUS from March next year — here’s what you need to know’, Sean Lim, 12 November 2018, Business Insider Singapore: https://www. businessinsider.sg/a-self-driving-shuttle-bus- will-hit-the-road-at-nus-from-march-next-year- heres-what-you-need-to-know/
                                                                                                        
 33 ‘Dyson chooses Singapore over Britain to build electric car’, Paul Sandle, Reuters, 23 October 2018: https://www.reuters.com/ article/us-britain-dyson-singapore/dyson- chooses-singapore-over-britain-to-build-electric- car-idUSKCN1MX2MO
+
 34 ‘Lov om utprøving av selvkjørende kjøretøy’ as above
+
 35 ‘Autonomous future at Forus’, Kolumbus: https://www.kolumbus.no/en/news-archive/ autonomous-future-at-forus/
+
 36 ‘Scandinavia gets its first autonomous public buses, but there's a big catch’, Stig Øyvann, ZDNet, 18 May 2018: https://www.zdnet.com/ article/scandinavia-gets-its-first-autonomous- public-buses-but-theres-a-big-catch/
+
 37 ‘Autonomous vehicles: expect up to 50 driverless buses on Oslo streets by 2021’, Stig Øyvann, ZDNet, 23 October 2018: https://www.zdnet.com/article/autonomous- vehicles-expect-up-to-50-driverless-buses-on- oslo-streets-by-2021/
+
 38 Applied Autonomy website: https://www. appliedautonomy.no/en/home/
+
 39 ‘Ta en selvkjørende buss til stranden i sommer!’ (‘Take a self-drive bus to the beach this summer!’), Acando Oslo: https:// www.acando.no/hva-vi-tror-pa/smart-city/ selvkjorende-buss-pa-fornebu/
+
 40 Preparing for the future of transportation: automated vehicles 3.0, US Department of Transportation, 4 October 2018: https://www. transportation.gov/av/3
-41 ‘News’, DriveOhio: https://www.driveohio.org/ news/
-42 Michigan Economic Development Corporation: https://www.michiganbusiness. org/
+
+41 ‘News’, DriveOhio: https://www.driveohio.org/news/
+
+42 Michigan Economic Development Corporation: https://www.michiganbusiness.org/
+
 43 ‘GovCharlieBakersignsMassachusetts electric vehicle bill into law’, Shira Schoenberg, MassLive, 13 January 2017: https://www. masslive.com/politics/index.ssf/2017/01/gov_ charlie_baker_signs_massachusetts_electric_ vehicle_bill_into_law.html
+
 44 Connected and Automated Vehicle Program, Virginia Department of Transportation,
 2018: http://www.virginiadot.org/programs/ connected_and_automated_vehicles.asp
+
 45 ‘World's first electrified public road opens in Sweden’, The Local, 13 April 2018: https:// www.thelocal.se/20180413/worlds-first- electric-road-opens-in-sweden
+
 46 ‘Stockholm gets Scandinavia's first driverless buses on public road’, Emma Löfgren, The Local, 27 December 2017: https://www.thelocal.se/20171227/ stockholm-gets-scandinavias-first- driverless-buses-on-public-road
-47
-48 49
+
 50
-51
-52
-53
-54
-55
-56 57
-‘Volvo's self-driving cars will soon hit the streets in Sweden’, The Local, 14 September 2018: https://www.thelocal.se/20180914/ volvos-self-driving-cars-will-soon-hit-the-road- in-sweden
-‘Electricdriverlesstrucksettogainapproval for public roads’, as above.
-‘Martti,developedforadverseweather conditions, is the first Finnish robot car to challenge snow and ice’, VTT, 15 December 2017: https://www.vttresearch.com/media/ news/martti-developed-for-adverse-weather- conditions-is-the-first-finnish-robot-car-to- challenge-snow-and-ice and ‘VTT’s robot car, Martti, now “speaks 5G” and takes another step towards full automation’, VTT, 20 August 2018: https://www.vttresearch.com/media/ news/vtt%E2%80%99s-robot-car-martti-now- speaks-5g-and-takes-another-step-towards-full- automation
-’Nordic conditions drive automated vehicles to the Finnish line’, Good News Finland, 9 August 2017: http://www.goodnewsfinland. com/feature/nordic-conditions-drive- automated-vehicles-to-finnish-line/
-‘DriverlessbusestakevisitorstotheKivistö Housing Fair from 10 July’, HSL, 8 July 2015: https://www.hsl.fi/en/news/2015/driverless- buses-take-visitors-kivisto-housing-fair-10- july-6904
-‘Self-driving bus on Helsinki RobobusLine goes to scheduled service’, City of Helsinki, 15 May 2018: https://www.hel.fi/uutiset/ en/helsinki/robobus-line-goes-to-scheduled- service
-‘Muji and Sensible 4 created Gacha – the first autonomous shuttle bus in the world for all weather conditions’, Sensible 4, Epressi, 31 October 2018: https://www.dezeen. com/2018/11/02/muji-sensible-4-gacha- autonomous-shuttle-bus-finland-driverless- design/
-‘Anyone can be a cabbie — new law transforms Finnish taxi trade’, YLE, 1 July 2018: https://yle.fi/uutiset/osasto/news/ anyone_can_be_a_cabbie__new_law_ transforms_finnish_taxi_trade/10283444
-‘The new Road Traffic Act aims for a
-safer future’, Ministry of Transport and Communications, Finnish Government,
+47‘Volvo's self-driving cars will soon hit the streets in Sweden’, The Local, 14 September 2018: https://www.thelocal.se/20180914/ volvos-self-driving-cars-will-soon-hit-the-road- in-sweden
+
+50
+48‘Electricdriverlesstrucksettogainapproval for public roads’, as above.
+
+49‘Martti,developedforadverseweather conditions, is the first Finnish robot car to challenge snow and ice’, VTT, 15 December 2017: https://www.vttresearch.com/media/ news/martti-developed-for-adverse-weather- conditions-is-the-first-finnish-robot-car-to- challenge-snow-and-ice and ‘VTT’s robot car, Martti, now “speaks 5G” and takes another step towards full automation’, VTT, 20 August 2018: https://www.vttresearch.com/media/ news/vtt%E2%80%99s-robot-car-martti-now- speaks-5g-and-takes-another-step-towards-full- automation
+
+50 ’Nordic conditions drive automated vehicles to the Finnish line’, Good News Finland, 9 August 2017: http://www.goodnewsfinland. com/feature/nordic-conditions-drive- automated-vehicles-to-finnish-line/
+
+51‘DriverlessbusestakevisitorstotheKivistö Housing Fair from 10 July’, HSL, 8 July 2015: https://www.hsl.fi/en/news/2015/driverless- buses-take-visitors-kivisto-housing-fair-10- july-6904
+ 
+51 ‘Self-driving bus on Helsinki RobobusLine goes to scheduled service’, City of Helsinki, 15 May 2018: https://www.hel.fi/uutiset/ en/helsinki/robobus-line-goes-to-scheduled- service
+
+52‘Muji and Sensible 4 created Gacha – the first autonomous shuttle bus in the world for all weather conditions’, Sensible 4, Epressi, 31 October 2018: https://www.dezeen. com/2018/11/02/muji-sensible-4-gacha- autonomous-shuttle-bus-finland-driverless- design/
+
+53 ‘Anyone can be a cabbie — new law transforms Finnish taxi trade’, YLE, 1 July 2018: https://yle.fi/uutiset/osasto/news/ anyone_can_be_a_cabbie__new_law_ transforms_finnish_taxi_trade/10283444
+
+54‘The new Road Traffic Act aims for a safer future’, Ministry of Transport and Communications, Finnish Government,
 23 November 2017: https://valtioneuvosto.fi/ en/article/-/asset_publisher/uusi-tieliikennelaki- tahtaa-turvallisempaan-tulevaisuuteen
 Automated and electric vehicles act 2018
+
 Fromsciencefictiontoreality:peoplein London and Edinburgh set to be the first
 to trial self-driving vehicle servicesí, UK Department for Business, Energy and Industrial Strategy, 22 November 2018: https://www.gov.uk/government/news/from- science-fiction-to-reality-people-in-london- and-edinburgh-set-to-be-the-first-to-trial-self- driving-vehicle-services
 58
