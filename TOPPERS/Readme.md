@@ -1,6 +1,9 @@
 TOPPERS資料一覧とAUTOSARの痕跡
 https://qiita.com/kaizen_nagoya/private/89f6eda67b9a8b43d171
 
+開発コンテスト受賞作品紹介　まとめ作成中「名古屋のIoTは名古屋のOSで」
+https://qiita.com/kaizen_nagoya/items/72b882d96b2841f25faf
+
 Autosar 資料のまとめ
 https://qiita.com/kaizen_nagoya/items/8511de0e6819dfa1acaf
 
