@@ -52,18 +52,19 @@
 日本ロボット学会	
 
 です。プログラマに関連する学会で、共催・協賛は、
-計測自動制御学会
-自動車技術会	
-電子情報通信学会
-日本信頼性学会
-日本心理学会	
-日本リスク学会
-日本人間工学会
+計測自動制御学会 https://www.sice.jp
+自動車技術会 https://www.jsae.or.jp	
+電子情報通信学会 https://www.ieice.org/jpn_r/
+日本信頼性学会 https://www.reaj.jp
+日本心理学会 https://psych.or.jp	
+日本リスク学会 http://www.sra-japan.jp/cms/
+日本人間工学会 https://www.ergonomics.jp
 
 共催、協賛していない学会は、
-情報処理学会
-日本ソフトウェア科学会
+情報処理学会 https://www.ipsj.or.jp
+日本ソフトウェア科学会 https://www.jssst.or.jp
 などです。
+
 
 その他、著名な学会で参加していないのは、
 医学係の学会と、数学・物理関係の学会と、社会科学系・人文科学系の学会です。
