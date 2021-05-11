@@ -1,4 +1,9 @@
-一つのQiita Zine記事を読み解く
+いくつかのQiita Zine記事を読み解く
+
+参考文献駆動執筆のための資料はこちら
+
+https://github.com/kaizen-nagoya/Safety_Analysis_self_driving_car/tree/master/Paper/qiitazine
+
 
 Qiita Zineが、なんのためにあるのかよくわかっていない。
 
