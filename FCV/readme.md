@@ -17,4 +17,7 @@ https://www.webcartop.jp/2019/03/341093/
   
   環境省主催オンライン水素シンポジウム
   https://www.env.go.jp/seisaku/list/ondanka_saisei/lowcarbon-h2-sc/events/PDF/hydrogen_symposium.pdf
+  
+  「安全と高圧ガス保安法」シンポジウム開催のご案内
+  https://www.csj.or.jp/event/2019/esc_0527_rev2.pdf
 
