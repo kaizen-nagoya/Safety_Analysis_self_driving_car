@@ -11,3 +11,9 @@ there are many references.
 CANにおけるメッセージスケジューリング手法 paper5.png
 
 LinuxとITRONによるハイブリッドOSの設計と実装 paper6.png
+
+システム構成を考慮したCANの最大遅れ時間解析手法 paper7.png paper7a.png
+
+エンジン制御システムのためのリアルタイム性検証手法 paper8.png paper8a.png
+
+RMA手法のエンジン制御システムへの適用に関する研究 paper9.png
