@@ -1,0 +1,565 @@
+\documentclass[twocolumn]{article} %% 日本語 (default)
+\usepackage[dvipdfmx]{graphicx}
+\title{TOPPERS Contribution to AUTOSAR 2nd proposal}
+\author{Dr. OGAWA Kiyoshi(O.K.)}
+
+\begin{document}
+\maketitle
+
+\section{Software Defined Vehicle}
+Some people propose  software defined vehicles.
+In electric vehicles, batteries determine performance.
+The performance of a battery changes depending on the characteristics of the material.
+Some simulation software can predict what kind of battery materials will be good,  how to control it, and how to maintain it
+For motors, there is a computer aided design software. Some simulation software can define how to mix the magnet materials. \cite{motormag}. 
+In addition, the device of the surface material of the coil can  be simulated using software \cite{motorcoi}.
+If the use of batteries and motors are limited to a few, the design of the structure, interior, etc. may be defined by software.
+All of the software are not open source, so we should focus and 
+
+電気自動車では、電池が性能を決める。
+電池は、材料の特性によって性能が変化する。
+材料を少し変えて、どのような電池になるか、どう制御すればいいか、どう保守すればいいかはソフトウェアシミュレーションで予測できる状態になっているとよい。
+電動機では、設計・制御ソフトウェアがある。磁石の材料をどう配合するとよいかはソフトウェアで定義できない\cite{motormag} 。
+またコイルの表面材料の工夫はソフトウェアで定義できるとは限らない\cite{motorcoi} 。
+電池と電動機の使用をいくつかに限定すれば、構造、内装などの設計はソフトウェアで定義できるかもしれない。
+
+
+\section{Open source}
+Changes on the technology in automobile industry may take over 10 years from material design to mass production trial .
+At each stage of design, the scope and depth of safety analyses are expanded to comprehensively examine the situation so that there are no unexpected events.
+In the open source business, since the design contents are open to the public, there is an advantage that safety analysis is also open to the public, and we are considering safety analysis using github or the like.
+Since 2007, it has been announced at the Safety Engineering Symposium almost every year, and recently, the following items should be tackled as items related to automobiles.
+自動車産業における技術の変化は、材料の設計から製品の量産試作まで、10年以上を要することがある。
+設計の各段階においては、安全分析の範囲と深さを広げることにより、想定外の事象がないように網羅的に検討するようにしている。
+オープンソース事業では、設計内容を公開しているため、安全分析も公開して行う利点があり、githubなどを利用した安全分析を検討している。
+2007年より、ほぼ毎年安全工学シンポジウムで発表し、最近、自動車関連で項目として取り組むとよいと考えているのは次の事項である。
+\begin{itemize}
+\item Fuel cell vehicle and hydrogen supply 燃料電池自動車と水素供給
+\item Electric vehicle with battery and motor 
+\item Autonomous driving car using machine learning
+\item Providing a calculation platform using a quantum computer
+\item Multi-core CPU and multi-OS
+\item Developing with open source software
+\end{itemize}
+Fuel cell vehicles and hydrogen supply will be excluded from this presentation at the stage of accumulating research on individual events at the Safety Engineering Symposium.
+In addition, detailed announcements and proposals have already been made at the Society of Automotive Engineers of Japan regarding the latest specific accident countermeasures, etc., and details will not be given.
+燃料電池自動車と水素供給については、安全工学シンポジウムでも個別の事象についての研究を蓄積している段階で、本発表から除外する。\cite{anzen2018ando}
+また、直近の具体的な事故の対策などは、すでに自動車技術会で詳細な発表と提案があり詳細には触れない\cite{kaminade2020}\cite{konuma2020}。
+
+\subsection{電池と電動機による電気自動車 Electric vehicle with battery and motor }
+The basic performance of an electric vehicle is determined by the battery. The specifications of the motor are restricted by how much voltage and current can be provided from the battery.
+Therefore, batteries and motors will be standardized in that order.
+The key to the safety of electric vehicles is the voltage and current of the battery and the electromagnetic noise from the motor.
+However, due to the examination of battery materials, in some cases, in automobiles that emphasize safe driving rather than driving, there is a possibility that even if the output of the electric vehicle is a little small, it is cheap.
+The reduction in the noise of electric vehicles is also a distant cause of accidents in parking lots and alleys, and a mechanism for making noise is being studied.
+We are considering doing all of these designs in open source
+電気自動車の基本性能は電池で決まる。電池から、どれだけの電圧、電流を提供できるかで、電動機の仕様が制約を受ける。
+そのため、電池、電動機の順に標準化していくことになる。
+電気自動車の安全は、電池の電圧、電流と、電動機からの電磁雑音が鍵になる。
+しかし、電池材料の検討により、場合によっては走りより安全運転を重視する自動車では、電気自動車の出力が少し小さくても安価であることを選択する可能性はある。
+電気自動車の騒音の減少は、駐車場や路地での事故の遠因にもなっており、音を出す仕組みの検討が行われている。
+これらの設計において、すべてオープンソースで行うことを検討している\cite{toppers2020}。
+
+\subsection{Autonomous driving car using machine learning 機械学習を利用した自動車の自動運転 }
+Physically, dedicated sensors and general-purpose sensors are being applied for autonomous driving.
+In software, studies such as collision avoidance using machine learning are in progress.
+In particular, machine learning is based on probabilistic calculations of time-series events, not causal relationships.
+It is known that the conventional "why-why analysis" cannot handle it.
+Therefore, we are considering "Takataka analysis" based on the probability calculation of time series events.
+自動運転のために、物理的には専用のセンサ、汎用センサの応用などが進んでいる。
+ソフトウェアでは、機械学習を利用した衝突回避などの検討が進んでいる。
+特に、機械学習は、因果関係ではなく、時系列の事象の確率計算に基づいており、
+従来の「なぜなぜ分析」では対応できないことが知られている。
+そのため、時系列事象の確率計算にもとづいた「たかたか分析」を検討している\cite{takataka}。
+\subsection{Providing a calculation platform using a quantum computer量子コンピュータを利用した計算基盤提供}
+Masafumi Kadowaki, who contributed to the practical application of quantum annealing, has joined DENSO, and the possibility that the principle of quantum annealing can be applied to automobile-related technologies is increasing. \ cite {kadowaki}.
+For the time being, there is a possibility that quantum computers will not be installed in automobiles, but will be widely used in machine learning for automatic driving control and mock tests of material research.
+Reproducibility is not required for finding singular points, and the accuracy of the results should be high.
+デンソーに量子アニーリングの実用化に貢献した門脇正史が入り、量子アニーリングの原理を、自動車関連技術で応用できる可能性が高まっている\cite{kadowaki}。
+当面は、量子コンピュータを自動車に搭載するのではなく、自動運転制御のための機械学習や、材料研究の模擬試験などで幅広く活用できる可能性がある。
+特異点の発見などは再現性が必要なく、出た結果の精度が高ければよい。
+
+\subsection{Multi-core CPU and multi-OS マルチコアCPUとマルチOS}
+t has been a long time since it has been said that the speedup of CPU has almost reached the upper limit at GHz.
+Higher performance CPUs are supported by multi-core processing, and the use of multi-core CPUs in electronic devices such as PCs is advancing.
+
+Even in automobiles, it seems that the use of multi-core CPUs is increasing when trying to realize high-speed processing without increasing the number of CPUs.
+CPU standardization has not progressed so as not to hinder the development of CPU. Therefore, even if you try to standardize for multi-core, you have to standardize only for multi-core of a specific CPU.
+
+It is the C language standard that secures the degree of freedom of the CPU and specifications, and the OS is trying to handle the CPU abstractly.
+We would like to consider how to support the CPU capabilities in C language and OS by sequentially installing two AUTOSAR OSs in any multi-core CPU.
+It may be good to propose various combinations by making use of the experience of installing multiple OSs on OSs other than AUTOSAR.
+CPUの高速化がGHzでほぼ上限に達していると言われて久しい。
+CPUの高性能化は、マルチコア化で対応しており、PCをはじめ、電子機器でのマルチコアCPUの利用が進んでいる。
+
+自動車でも、CPUの個数を増やさずに、高速処理を実現しようとすると、マルチコアCPUの利用が増えているらしい。
+CPUの発展を阻害しないようにCPUの標準化は進んでいない。そのため、マルチコアについて標準化しようとしても、特定のCPUのマルチコアについてだけの標準化にならざるを得ない。
+
+CPUと仕様の自由度を確保するのがC言語規格であり、CPUを抽象的に扱うことができるようにしようというのがOSである。
+AUTOSARの２つのOSを任意のマルチコアCPUに順次搭載することにより、CPUの能力をC言語とOSでどう対応するとよいかを検討していきたい\cite{multicore}。
+AUTOSAR以外のOSでの複数OS搭載の経験などを生かしていろいろな組み合わせを提案していくのもいいかもしれない\cite{multicore2019} 。
+
+
+
+\section{Developing with open source software オープンソースソフトウェアによる開発}
+The use of open source has expanded from the experiment of autonomous driving to the process of practical application.
+Open source is also available for automobile technology other than autonomous driving.
+Especially, use in the development process is github, docker, etc.
+This analysis is based on the content of the TOPPERS application development contest on the 2020 open source project, which received the bronze prize \ cite {toppers} in the idea category.
+
+We will show you three advantages as a practical solution, such as limiting automatic driving by open source to low-speed movement.
+
+自動運転の実験から実用化の過程でオープンソースの利用が広がり、
+自動運転以外の自動車技術でもオープンソースの利用が可能になっている。
+特に、開発過程での利用は、github, dockerなど
+今回の分析は、2020年オープンソースプロジェクトに関するTOPPERSアプリケーション開発コンテストで、アイデア部門で銅賞\cite{toppers}をいただいた内容に基づいている。
+
+オープンソースによる自動運転を低速移動に限定するなどの現実解としての利点を３つ示します。
+
+
+\subsection{低速移動}
+
+高齢者による事故を減らすには、高齢者が運転せざるを得ない状況における解決策を提示すること。具体的には、低速でもよいので安全に移動できる手段を提供することが大事かも。
+\cite{yamaha1}
+\cite{yamaha2}
+\cite{yamaha3}
+\cite{yamaha4}
+\cite{yamaha5}
+\cite{yamaha6}
+
+\subsection{市街地または過疎地の近距離移動における低速規制}
+The use of open source has expanded from the experiment of autonomous driving to the process of practical application.
+Open source is also available for automobile technology other than autonomous driving.
+Especially, use in the development process is github, docker, etc.
+This analysis is based on the content of the TOPPERS application development contest on the 2020 open source project, which received the bronze prize \ cite {toppers} in the idea category.
+
+We will show you three advantages as a practical solution, such as limiting automatic driving by open source to low-speed movement.
+
+自動車が低速移動できるだけでは、安全が確保できるとは限らない。
+高速移動している自動車との分離が必要かもしれない。
+
+いくつかの都市で、市街地への自動車の乗り入れ禁止の社会実験を行っている。
+市街地での低速運転義務付けの社会実験もぜひ展開できると嬉しい。
+
+そのための条件を検討する。
+低速走行モード自動車だけの通行とは、高速走行自動車に、低速走行モードと安全運転機能をつけて、道路から自動車の低速走行モードを確認して、低速モードにしていなければ、警告を発し、なおかつ走行し続ければ、罰金を自動で貸すようなシステム。
+\begin{enumerate}
+\item 低速限定自動運転自動車の量産　Mass production of low-speed limited autonomous vehicles
+\item 低速走行モード自動車だけの通行　Low-speed driving mode cars are only allowed
+\item 道路側の低速モード自動車検出システム　Low speed mode car detection road system
+\item 低速走行限定免許　Low speed limited driving license
+\item 低速走行限定保険　Low speed driving limited insurance 
+\end{enumerate}
+
+
+\subsection{Road safety 道路安全}
+It's natural that you can't go on a road narrower than a car.
+Is the minimum width and minimum turning radius a problem for specifications that narrow the width of automobiles?
+If the car is a disaster response vehicle such as the slope or unevenness of the road, it should be possible to deal with the unsafe condition of the road.
+Even so, it may be possible to consider road maintenance methods by accumulating vehicle passage records and accident records on the road side.
+自動車より狭い道路は通れないはずという当たり前のことも、
+自動車の幅が狭くなる仕様では、最小横幅、最小回転半径が問題になるのだろうか。
+道の傾きや凸凹など、災害対応の車であれば、道路が安全ではない状態にも対応すればいいのだろう。
+それでも、道路側に、自動車の通過記録、事故記録を蓄積sていけば、道路の保守の方法を検討できるかもしれない。
+
+\subsection{osek}
+It can be said that OSEK is an OS that helps the CAN protocol to physically arbitrate so as not to interfere with the engine control of the car.
+Interrupts are divided into Category 1 that does not use the OS function and Category 2 that uses the OS function, and I am devoted to not disturbing the engine control. \cite{osek}
+
+Since AUTOSAR's Classic Platform uses OSEK, if you do not use the TaskTable specified in SC1, it is better to exclude it from the compilation target.
+
+OSEKは、自動車のエンジン制御の邪魔をしないように、物理的に調停するCANプロトコルを助けるOSだということができる。
+割り込みをOSの機能を使わない分類１と、OSの機能を使う分類２に分け、エンジン制御を邪魔しないようにすることに心を砕いている。\cite{osek}
+
+AUTOSARのClassicPlatformは、OSEKを利用しているのだから、SC1で規定しているTaskTableは使わないのであれば、コンパイル対象から外れるのがよい。
+
+\subsection{posix}
+AUTOSARのAdaptive Platform is POSIXのPSE51\cite{posix}
+" This profile is intended for embedded systems, with a single multi-threaded process, no file system, no user and group support and only selected options from IEEE Std 1003.1b-1993."
+No files, no users and groups.
+Just \ cite {posixtest} confirms that Windows cygwin has no users or groups in NIST's public POSIX test \cite{posixtestsuite}.
+
+Autosar's Adaptive Platform is POSIX's PSE51 file, user, and groupless specification \cite{pse51}.
+However, files are often useful if they are compatible with the network.
+For example, it may be a good idea to read and write to NVRAM via a file. 
+
+AUTOSARのAdaptive Platformは、POSIXのPSE51\cite{posix}である。
+
+" This profile is intended for embedded systems, with a single multi-threaded process, no file system, no user and group support and only selected options from IEEE Std 1003.1b-1993."
+ファイルがなくて、ユーザとグループがない。
+ちょうど、Windowsのcygwinがユーザ、グループがないことをNIST の　公開POSIX試験\cite{posixtestsuite}で確認している\cite{posixtest}。
+
+AutosarのAdaptive Platformは、POSIXのPSE51というファイル、ユーザ、グループのない仕様である\cite{pse51}。
+しかし、ファイルは、ネットワークとの互換性を考えると対応していると便利なことが多い。
+例えば、NVRAMへの読み書きもファイル経由にすることも一案かもしれない。
+
+ユーザがない仕様でセキュリティを防ぐ上で、うまく設計できるかは確かめていない。
+Adaptive Platformの仕様は最低規定であり、LinuxであってもPOSIX対応が確認できていればいいと理解している。
+Gladle LinuxでもAdaptive Platform対応であることを明記するのも手かもしれない。
+
+\subsection{In-vehicle Ethernet 車載Ethernet}
+Whether it is Ethernet or CAN XL, the physical and logical specifications are supported by the development of serial high-speed communication technology. \cite{networki}.
+In-vehicle Ethernet is a pair of thin cables that make it easy to handle in order to use Ethernet in-vehicle. \cite{networki}
+
+Ethernetであっても、CAN XLであっても物理的、論理的な仕様をシリアル高速通信技術の発展が支えている。\cite{networki} 。
+Ethernetを車載で利用するために１対でケーブルを細く、取り回しがしやすいようにしたのが車載Ethernetである。\cite{networki} 
+
+
+\subsection{Safety Analysis 安全分析}
+The technology that supports electronic control of the engine is based on interrupt control based on angular velocity control by ISO OSEK OS, communication by ISO CAN by performing non-waiting tasks, and physical mediation, and physics of electronic control. Model design tools such as MATLAB have been used for specific design. MATLAB has developed and participated in his PCC at Bell Labs, which is one of the major trends in his software technology backed by compiler technology.
+Even if the TOPPERS project is limited to the OS project, it is good to confirm that it is evolving by relying on the development of compilers such as PCC, GCC (GNU), and Clang (LLVM).
+
+エンジンの電子制御を支える技術とし ては、ISO OSEK OS による角速度制御を割り込み制御 を基本として、待ちのないタスクによりまた、物理的な 調停を行うことにより ISO CAN による通信さらに、電 子制御の物理的な設計に、MATLAB などのモデル設計の 道具を用いてきている。MATLAB は、ベル研で PCC を 開発したが参加しており、コンパイラ技術が支えるソフ トウェア技術の一つの大きな流れになっている。
+TOPPERS プロジェクトを OS のプロジェウトに限定 したとしても、PCC, GCC(GNU), Clang(LLVM)というコンパイラの発展に依拠して発展していることを 確認しているとよい。
+\subsection{規定}
+Based on the WTO / TBT agreement, describing specifications in comparison with international standards has the meaning of preventing unfair competition by avoiding non-tariff barriers. Patents related to international standards have a restraining power against unfair treatment.
+AUTOSAR does not have a liaison relationship with ISO. The AU-TOSAR specification describes only the parts other than the international standard. It may be easier to understand if AUTOSAR has a liaison relationship with ISO and publishes a comprehensive document, or if the revision of AUTOSAR is promptly reflected in the revision of international standards.
+Most of the components of Autosar are open source, starting with OSEK, which is classified by Classic Platform name, and POSIX, which is classified by Adaptive Platform name. As you can see in the application contest entry, multiple open source couplings are highly technical. If the results of the contest are systematically rearranged and the discussions at the developer conference are well coordinated, it is possible to make recommendations for his entire AUTOSAR centering on the development. The TOPPERS Hakoba Project / WG can be expected based on his basic idea of C language and UNIX, which is to make small and grow big, based on practical standards, and the type of open source success stories.
+The TOPPERS of the Year award-winning Sunny Giken, CioRy has successfully revisited the parts that Fujitsu and his KPIT [14] tried in 2010 and failed to fully capture the market. If these results are successfully fed back to the AUTOSAR specifications, it will be possible to return to AUTOSAR's original environmentally friendly technology, and the market may expand. His TOPPERS / ISO OSEK-compliant research and development by the Ministry of Economy, Trade and Industry, which was the source of ATK, was the environmental framework. [15] When I conducted an actual vehicle test at Aisin Seiki's Toyokoro Test Site (Hokkaido) and experienced the life-threatening driving of a test driver, no matter how much time wasted by software, it could be fatal. I was able to carry out the safety analysis with a sense of tension. From this valuable experience, I was able to experience that constraints that do not provide a basis for what is needed and what is not needed in the specifications of automotive software are worthless. Therefore, we will consider the methods and tests necessary to realize his various AUTOSAR specifications.
+WTO/TBT 協定に基づき、仕様を国際規格との比較で 記述することは、非関税障壁にならないようにすること で、不公正競争を防止する意味がある。国際規格に関連 する特許は、不公正な扱いに対する抑制力がある。
+AUTOSAR が ISO とリエゾン関係を結ばない。AU- TOSAR 仕様は、国際規格以外の部分だけの記述になっ ている。AUTOSAR が ISO とリエゾン関係を結び、総体 的な文書を発行するか、AUTOSAR の改定をすみやかに 国際規格の改定に反映すれば分かりやすくなるかもしれ ない。
+Autosar は Classic Platform 名で分類している OSEK から Adaptive Platform 名で分類している POSIX を始 め、ほとんどの構成要素がオープンソースで存在している。アプリケーションコンテストの応募にあるように、複 数のオープンソースの連成は高度な技術がいる。コンテ ストの成果を体系的に整理しなおし、開発者会議での議 論をうまく連携させれば、開発物を中心に AUTOSAR 全 体に対する提言が可能である。TOPPERS 箱庭プロジェクト/WG は、実働基準に基 づく、小さく作って大きく育てるという C 言語、UNIX の基本的発想と、オープンソースの成功事例の類型に基 づいていて期待できる。
+TOPPERS of the Year を受賞したサニー技研の CioRy は、2010 年に富士通と KPIT[14] が試行して十分に市場 を獲得できなかった部分をうまく取り上げ直している。これらの成果をうまく、AUTOSAR の仕様に負帰還さ せれば、AUTOSAR の本来の環境対応のための技術にた ちもどることができ、市場が拡大する可能性がある。ATK の元となった TOPPERS/ISO OSEK 対応の経済産業省 の研究開発が、環境枠であった [15]。アイシン精機の豊 頃試験場(北海道)で実車試験をさせていただき、テス トドライバの命がけの運転を生で体験すると、いかにソ フトウェアが一瞬でも無駄な時間をとったら、命を落と しかねないという緊張感を持って安全分析を実施するこ とができた。こういう貴重な体験から、自動車のソフトウェアの仕様 に何が必要で、何が必要でないかの根拠を示さない制約は 価値がないことが体験できた。そこで、様々な AUTOSAR の仕様の実現にあたって、必要な方法と試験を検討する。
+
+
+\section{assessment project}
+\subsection{github}
+n experiment using github on TOPPERS has started.
+I haven't made any contribution yet.
+After making this material, let's work on something.
+
+Including this material, I registered it on github so that it can be widely discussed and improved.
+Achievements of Arctic Code Vault Contributor from Github \cite{githubachieve}.
+Github describes the activity status in 5 stages every day in color and displays the activity status for the year. \cite{gap2021}
+TOPPERSでgithubを使う実験が始まった。
+まだ、何の貢献もできていない。
+この資料をつくったら、何か取り組もう。
+
+この資料を含めて、githubに登録し、広く公開で議論でき、改善できるようにした。
+GithubからArctic Code Vault ContributorのAchievements をいただいた\cite{githubachieve}。
+Githubは、活動状況を毎日５段階で色で記述し、年間の活動状況を表示する。\cite{gap2021}
+
+
+\subsection{assessment log}
+The concept of an open source practice test was diagnosed by Automotive SPICE.
+The diagnosis report showed that there is a basis for contests that have already received external evaluation, and I was able to reaffirm the importance of evaluation in the TOPPERS project in which many automobile-related companies participate.
+
+オープンソースによる模擬試験の構想について、Automotive SPICEによって診断を受けた。
+診断報告には、すでに外部評価を受けたコンテストなどには、根拠があることを示していただけ、自動車関連企業が多く参加するTOPPERSプロジェクトにおける評価の重要性を再認識することができた。
+
+\subsection{20201009}
+
+On the day: Make a motor bench, and on the software side, make all the power simulator, motor simulator, control software, etc. in open source.
+Background: There is a good power supply simulator in Japan. The power supply part of dSPACE is also linked with a Japanese simulator. Requested another Japanese power supply simulator to deal with transient phenomena in a certain motor business. Realized in a few years.
+afterwards:
+A dozen years ago, I was told by a European standardization body that the standard for electric vehicles was decided after the standard for batteries was set for electric vehicles.
+In the electric vehicle business, there is joint research with Panasonic's battery venture.
+Responsible for quality control of motor benches in multiple electric vehicle businesses.
+Nagoya Institute of Technology and Denso participated as advisors for a prototype evaluation project for practical design of induction motors with the support of the Ministry of Economy, Trade and Industry.
+I have discussed FPGA control with battery development departments in multiple manufacturing industries. \cite{starc}.
+
+当日：モータのベンチを作って、ソフト側は電源シミュレータ、モータシミュレータ、制御ソフトなど全部をオープンソースで作る。
+背景：日本には電源系のよいシミュレータがある。dSPACEも電源部分は日本のシミュレータと連携している。日本の別の電源系のシミュレータに、ある電動機の事業で、過渡現象に対応することを要請。数年後に実現。
+その後：
+電気自動車では電池の規格を決めてから電動機の規格を決めて来たと欧州の標準化団体から十数年前に教えてもらった。
+電気自動車の事業で、パナソニックの電池のベンチャとの共同研究あり。
+複数の電気自動車の事業で、モータベンチの品質管理などを担当。
+名古屋工業大学とデンソーが経済産業省の支援で誘導電動機の実用設計に向けた試作評価の事業のアドバイザとして参加。
+複数の製造業の電池開発部門とFPGAの制御について議論したことあり\cite{starc}。
+
+
+モータの設計ソフトは日本によいものがある。
+研修受講済み。愛知県のA社と名古屋に工場があるM社も受講。
+A社のモータ設計の技術力の高いことを知る。
+\subsection{20201113}
+A method of linking an analog "A" model simulator and a digital "D" model simulator
+Relationship between open source "O" and commercial software "C"
+
+AO --DO
+AO-DC
+AC --DO
+AC-DC
+4 types
+
+How to make software
+Create a higher level software that integrates both software, and connect the lines from one to the other.
+Create a command to convert the input and output of both software.
+Make one add-on software (one type each)
+4 types in total.
+There are 16 methods so far, and which one to start with is decided by the gathering of collaborators.
+What is your main programming language?
+
+I was wondering if I could choose from javascript, java, C ＃, and python, so I searched 10 sites of 10 major programming languages on the Web and added the order, and I got these four. Same as expected.
+I tried copying a program that processes XML with C ＃ a little. 
+
+
+アナログ系「A」のモデル・シミュレータとデジタル系「D」のモデル・シミュレータを連携する方式
+オープンソース「O」と商用ソフト「C」との関係
+
+AO - DO
+AO - DC
+AC - DO
+AC - DC
+の４種類
+
+ソフトウェアの作り方
+両方のソフトを統合する一段上のソフトを作り、一方から他方へ線をつなげばつながるようにする。
+両方のソフトの入出力を変換するコマンドを作る。
+一方のアドオンソフトにする（それぞれ１種類）
+合計４種類。
+ここまでで16通りの方式があり、どれからやるかは協力者の集まり具合で決める。
+主たるプログラミング言語を何を使うか。
+
+javascript, java, C＃, pythonから選ぼうかなって思って、Webで１０大プログラミング言語を10 site調べて、順番を加算したら、この４つになった。予想と同じ。
+XMLを加工するプログラムをC＃で少し写経してみた\cite{}gaio。
+
+
+\subsection{20201211}
+
+主な資料\cite{TOPPERSmail}, \cite{UML}, \cite{nakamura}
+
+\subsection{0210108}
+
+A社のSさんが参加してくださった。
+医療用機器では、電源断の時も動いている必要があり、電池駆動の機器も多いとおうかがいした。
+充電池では、充電の電圧、電流の方式が一つではなく、適した充電方式を接続しないとうまくないとのことでした。
+電気自動車でも、電池の仕様を決めてから、電動機の仕様を決めるという具合に、電池駆動設計であることを紹介しました。\cite{qiita73}, \cite{qiitaf7}
+
+\subsection{0210212}
+Former S company I participated.
+He was interested in the technological singularity and requested cooperation in discovering the singularity of battery design.
+When a general solution cannot be obtained analytically, empirically, searching for a singular point by statistical analysis may require various ideas.
+Thermodynamics, mathematics, and quantum mechanics are the main theories, but the theory for crystals is very important. Some may be available from astronomy.
+
+元S社のIさんが参加してくださった。
+技術的特異点(technological singularity)に興味がおありで、電池設計の特異点の発見に協力を要請した。
+一般解が解析的に求まらない時に、経験的に、統計解析で特異点を探すのは、いろいろな発想が必要になるかもしれない。
+熱力学、数学、量子力学が主な理論だが、結晶に対する理論はとても大事。天文学から援用できるものもあるかもしれない。
+
+
+\section{takataka分析}
+It may be inferred from the complexity of traffic accidents that time series analysis is more important than causal relationships in safety analysis.
+Regular and well-prepared work like the manufacturing process,
+In events that straddle spaces with different management authority, such as public roads, private roads, garages and parking lots,
+The dimension of complexity is different.
+Traffic safety analysis cannot be performed only by safety analysis at the manufacturing site and product design methods.
+
+Events in which railway builders, railway operators, train designers, station operators, drivers, etc. belong to one organization, such as railways.
+An event consisting of organizations of completely different sizes, such as road managers, automobile manufacturers, and drivers,
+It can be inferred that causal analysis is not sufficient.
+
+Therefore, why-why, not analysis, what kind of event is likely to occur in time series,
+It is important to consider what happens, which is likely to reduce fatal accidents, without limiting it to causal relationships.
+Takataka analysis is advocated as one of the methods.
+
+Probability calculation based on statistics is also important in quality control,
+Quality improvement through machine learning is based on probability calculations rather than causality.
+
+It does not mean that why-why analysis is unnecessary.
+It is important to follow causality and focus on time series or probability calculations with the same competence.
+It is widely known and is being adopted in the automatic operation control method.
+
+安全分析で、因果関係よりも時系列分析が重要であることは、交通事故の複雑さから推測できるかもしれない。
+製造工程のように、規則正しく、準備万端で行う作業と、
+公道、私道、車庫・駐車場などの、管理権限の異なる空間をまたぐ事象では、
+複雑度の次元が違う。
+製造現場での安全分析、製品設計の手法だけでは、交通安全分析は行うことができない。
+
+鉄道のように、鉄道敷設者、鉄道運営者、電車設計者、駅運営者、運転者などが一つの組織に属する事象と、
+道路管理者、自動車製造者、運転者などが全く規模のことなる組織からなる事象とでは、
+因果関係による解析では十分でないことが推測できるだろう。
+
+そのため、なぜなぜ分析ではなく、時系列でどういう事象の発生確率が高いか、
+何が起きると、死亡事故が減る確率が高いかを、因果関係に限定せずに検討することが重要である。
+その手法の一つとして、たかたか分析を提唱している。
+
+品質管理においても、統計に基づく確率計算が重要であり、
+機械学習による品質の向上は、因果関係ではなく確率計算に基づいている。
+
+なぜなぜ分析が不要であるということではない。
+因果関係を追うことと、同じくらいの力量で、時系列または確率計算に注力することが重要であることが、
+幅広く知られ、自動運転制御の方式の中でも採用されつつある。
+
+\section{提案 propose}
+提案には、AUTOSARへの提案とAUTOSARには提案せずに、ソースコードで実現することによりAUTOSARが準拠したくなる事項とに分類する。
+前者は警備なもので、
+\subsection{AUTOSARへの提案 Propose to AUTOSAR}
+\subsubsection{割り込み分類名 category name of interrupt}
+Initially, AUTOSAR had one issue as cooperation with Simulink\cite{simulink}.
+This is so that all software can automatically generate source code by writing a model.
+Communication CAN has a function of electrically arbitrating so as not to interfere with engine control and motor control.
+OSEK, the OS, provides a function as an OS that does not interfere with engine control and motor control and assists CAN communication.
+Then, for engine control and motor control, interrupts are classified as class 1 and class 2 interrupts depending on whether or not the OS function is used.
+If possible, it may be with OS, without OS, and it is not preferable to classify by the numbers 1, 2.
+AUTOSARは、当初、Simulinkとの連携を一つの課題としていた\cite{simulink}.。
+すべてのソフトウェアを、モデルを書けば、ソースコードを自動生成できるようにするためである。
+通信のCANは、エンジン制御、モータ制御を邪魔しないように電気的に調停する機能がある。
+OSのOSEKは、エンジン制御、モータ制御の邪魔をせず、かつCAN通信を助ける機能をOSとして提供する。
+そして、エンジン制御、モータ制御のためには、OSの機能を利用するかどうかで、分類１と分類２の割り込みとして割り込みを分類している。
+できれば、with OS, without OSとすればよく、１、２という数字で分類するのは好ましくない。
+\subsection{TOPPERSへの提案 Propose to TOPPERS}
+\subsection{multicore, multios}
+Adaptive PlatformはPOSIX PSE51である。SUTOSARの目標であるアプリケーションの汎用性を高めるためには、ファイルとネットワークの互換性が重要である。
+Linux/Unixでは、ネットワークとファイルが継ぎ目なく相互変換でき、アプリケーションの設計において重要である。
+TOPPERSとしてAdaptive Platform用のオープンソースを提供するのであれば、GladleLinuxと五感のLinuxを提供するのが好ましいかもしれない。
+
+
+
+\section{summurize}
+In the midst of the major transformation of autonomous driving and electric vehicles, the expansion of the scope of automobile safety is inevitable.
+The use of new electronic devices, new communication rules, and new software can create new dangers.
+Therefore, instead of the why-why analysis that emphasizes the conventional causal relationship, the causal relationship is based on the same time-series analysis.
+Attempts to ensure vehicle safety.
+
+This is a new initiative, and we have not fully confirmed any duplication or omission with the conventional method.
+We would like to expand our efforts on methods that can effectively and comprehensively use new tools such as machine learning and quantum computers.
+
+自動運転と電気自動車という大きな変革に際して、自動車安全の範囲の拡大は余談を許さない。
+新しい電子機器、新しい通信規約、新しいソフトウェアの利用は、新しい危険性を生み出す可能性があるからである。
+そこで、従来の因果関係に力点を置いたなぜなぜ分析ではなく、因果関係ではなじ時系列分析にもとづいた「たかたか」分析を行うことによって、
+自動車安全を確保しようと試みている。
+
+まだ始まったばかりの取り組みで、従来方法との重複、抜け漏れは十分には確認できていない。
+機械学習、量子計算機という新しい道具類をうまく網羅的に利用できる方法の取り組みを広げていきたい。
+
+\begin{thebibliography}{99}
+%
+\bibitem{toppers2020} TOPPERSのAUTOSARへの貢献, https:/ /qiita.com/kaizen\_nagoya/items/d363cf06e217 6207b391, 2020
+\bibitem{anzen2018ando}安藤俊希, 朝原誠, 佐分利禎, 久保田士郎, 宮坂武志 (2018). 高圧水素放出における管長がジェット火炎形成に及ぼす影響. 安全工学シンポジウム2018 
+\bibitem{kaminade2020} Deveopment of the acceleration suppression system for gas pedal misapplication using big data, Takuya Kamidade, et al, 175sp, JSAE 2021 aki, 2021
+\bibitem{konuma2020} Using Modified R-Map as Proactive Countermeasure for Improper Use Accidents, Koji Konuma, Heishiro Toyoda, 177sp, JSAE 2021 aki, 2021
+
+
+\bibitem{osek}OSEK/VDX Operating System Specification 2.2.3 https://www.irisa.fr/alf/
+downloads/puaut/TPNXT/images/os223.pdf
+\bibitem{posix} POSIX PSE51 https://www.opengroup.org/
+austin/papers/wp-apis.txt
+
+
+\bibitem{posxtest} OGAWA Kiyoshi, KIRIYAMA, Kiyoshi. Testing and Verification for Embedded Linux. 3WSQC, German, 2005. 9. 2005 
+\bibitem{posixtestsuite} PCTS : 151-2, POSIX Test Suite, NIST. http://www.itl.nist.gov/div897/ctg/posix
+\_form.htm. 1999 
+
+\bibitem{takataka} たかたか分析,https://qiita.com/kaizen\_nagoya/ items/1c848e8c71edb34c2f3f, 2021
+\bibitem{multicore}マルチコアの壁,https://qiita.com/kaizen\_nagoya/ items/f38e47574905c80c0706 , 2020
+\bibitem{multicore2019} CPU マルチコア・マルチOS, https://qiita.com/ kaizen\_nagoya/items/6bdb6116f0aa50c5372a, 2019
+
+\bibitem{kadowaki}T-QARDの日々 第7回「量子アニーリングのレジェンド、門脇正史さん（株式会社デンソー）特別インタビュー」(2018/06/14)
+\bibitem{kimura2021} eスポーツからeモータスポーツへ, 木村紀子, 宙舞, 自動車技術会中部支部, pp32-36,No.88 2021, ISSN 1348-3676
+
+\bibitem{yamaha1} 自律ビークルの知能化プラットフォーム開発 -ROS, Autoware の活用 , 
+https://global.yamaha-motor.com/jp/design\_technology/technical/
+presentation/pdf/browse/52gs05.pdf
+
+\bibitem{yamaha2} パーティクルフィルタによる自己位置同定とロバスト制御を組合せた果樹園におけるUGV巡回走行 … 石山 健二 / 神谷 剛志 / 深尾 隆則 / 倉鋪 圭太
+https://global.yamaha-motor.com/jp/design\_technology/technical/
+thesis/pdf/browse/
+
+\bibitem{yamaha3} 技術紹介 自律ビークル用 ECU ソフトウェアの 短期開発技術について
+https://global.yamaha-motor.com/jp/design\_technology/technical/
+presentation/pdf/browse/50gs04.pdf
+
+\bibitem{yamaha4} 無人車開発用環境シミュレータの開発
+https://global.yamaha-motor.com/jp/design\_technology/technical/
+presentation/pdf/browse/49gs05.pdf
+
+\bibitem{yamaha5}ロボットカーによる建設現場における無人測量、および経路追従制御のための位置・姿勢推定技術;
+https://global.yamaha-motor.com/jp/design\_technology/technical/
+presentation/pdf/browse/44gs05.pdf
+
+\bibitem{yamaha6}リゾート施設における低速モビリティの利用調査と自動運転サービスデザイン　… 荒木 幸代 / 藤井 北斗 / 見米 清隆 / 渡辺 仁
+https://global.yamaha-motor.com/jp/design\_technology/technical/thesis/
+pdf/browse/54gr04.pdf
+
+\bibitem{STARC} STARC RTL設計スタイルガイド を「こう使おう」
+https://www2.slideshare.net/kaizenjapan/starc-verilog-hdl2013d-16795634
+
+\bibitem{gap2021} Github archive programって何ですか？, https://qiita.com/kaizen\_nagoya/items/27cb1 a6e3529a71b18a9
+\bibitem{github} https://github.com/kaizen-nagoya/anzen/blob/main/README.md
+\bibitem{guide} https://ja.atlassian.com/git/tutorials/syncing
+\bibitem{license} OSS license on GitHub Licensed, https://www.infoq.com/jp/news/2018/03/github-licensed-oss-license-tool
+
+
+\bibitem{motormag} 次世代自動車向け高効率モーター用磁性材料技術開発, https://www.nedo.go.jp/content/100928880.pdf, 2021
+\bibitem{motorcoil}電動車向けモータの巻線, https://sei.co.jp/technology/tr/bn196/pdf/196-04.pdf, 2021
+
+\bibitem{network}車載ネットワークの高速化, https://qiita.com/kaizen\_nagoya/items/
+a8cee76395d7d6801f2e, 2020
+\bibitem{ethernet}はじめての車載Ethernet, https://qiita.com/kaizen\_nagoya/items/
+81375e39d5255c479d0e, 2021
+
+\bibitem{}gaio gaio 参考資料
+https://www.gaio.co.jp/events/qte/
+\bibitem{githubachieve} Github archive programって何ですか？, https://qiita.com/kaizen\_nagoya/items/
+27cb1a6e3529a71b18a9, 2021
+\bibitem{nakamura}自動化による効率改善で開発現場が活気付くEnterprise Architect活用とアドイン開発 中村 晋一郎 
+https://www.sparxsystems.jp/seminar/
+20201211.htm
+\bibitem{UML} Enterprise Architect カスタマイズ事例を通して得られる価値の共有セミナー
+https://connpass.com/event/193608/?fbclid=
+IwAR23ACIbJgHHNnUfm32xHddZT8fjW20
+ooKmU8qpqIP543adBpsa4zsQ4W0M
+
+
+\bibitem{TOPPERSmail}
+https://toppers.jp/TOPPERS-USERS-mailman/2020-December/004718.html
+
+
+\bibitem{qiitabattery}, 
+プログラマが電池設計に寄与できるプログラムを書くために
+https://qiita.com/kaizen\_nagoya/items/
+73e44e4f1ebf161f58cc
+
+\bibitem{qiitabattery2} 自動車の電源・電池と計算機・通信
+https://qiita.com/kaizen\_nagoya/items/
+f749754c2c9a15d2b70e
+
+
+\bibitem{qiitamulti}AUTOSARとSimulink: Adaptive Platform, Classic Platformとマルチコア対応を含めた共通化を目指して
+https://qiita.com/kaizen\_nagoya/items/
+d613b0b14bfd91989a13
+
+\bibitem{qiitabosch}ボッシュ自動車ハンドブック
+https://qiita.com/kaizen\_nagoya/items/
+8e330ce57880f04d71d9
+\bibitem{qiitatoyota}トヨタの自工程完結　佐々木 眞一
+https://qiita.com/kaizen\_nagoya/items/
+dd2de8bd9d884c16911d
+\bibitem{qiitadirectory}AUTOSAR一覧
+https://qiita.com/kaizen\_nagoya/
+items/89c07961b59a8754c869
+
+\bibitem{simulink}
+AUTOSARとSimulink: Adaptive Platform, Classic Platformとマルチコア対応を含めた共通化を目指して
+https://qiita.com/kaizen\_nagoya/items/
+d613b0b14bfd91989a13
+\bibitem{Qc1} プログラマにも読んでほしい「QC検定にも役立つ！QCべからず集」
+https://qiita.com/ kaizen\_nagoya/items/
+d8ada7b7fceafe2e5f0e, 2021
+\bibitem{qc2} QC検定に落ち「たか」らかける記事。20,000人の方に読んでいただけ「たか」ら書ける記事。「たかたか」分析の勧め。 https://qiita.com/kaizen\_nagoya/items/
+2a371ee 8c8f1b78cd5bb,2021
+\bibitem{wind} 「風をあつめて」を計画書として事業展開してみる 
+https://qiita.com/kaizen\_nagoya/items/
+92365c542714f27e5658
+\bibitem{nippou} 仮説・検証(73)プログラマの「日報、週報、月報、年報」考 
+https://qiita.com/kaizen\_nagoya/items/
+97ad8ac9217c12c3bb69
+\bibitem{kyouiku2} プログラマが大学に推薦入学できるような仕組みを検討する 
+https://qiita.com/kaizen\_nagoya/items/
+0c829f73e1df987032d0
+\bibitem{kyouiku} AUTOSAR教材作成３年計画 
+https://qiita.com/kaizen\_nagoya/items/
+84d8f1ecbbe7af7803af
+
+\bibitem{toppers2} TOPPERS のAUTOSARへの貢献(更新中)
+https://qiita.com/kaizen\_nagoya/items/
+d363cf06e2176207b391
+\bibitem{toppers} https://www.toppers.jp/contest.html
+TOPPERS活用アイデア・アプリケーション開発コンテスト2020年度活用アイデア部門 銅賞
+TOPPERS のAUTOSARへの貢献, 小川 清
+\bibitem{hazop} IEC 61882 Hazop: hazard analysis and operabllity study, IEC , 2001
+\bibitem{FMEA} IEC60812　FMEA: failure mode and effectiveness analysisシステム信頼性の分析技法　失敗状態と効果解析(FMEA), IEC,2006
+\bibitem{FTA} IEC61025　FTA: Fault tree analysis 故障木解析, IEC, 2006
+\end{thebibliography}
+
+\end{document}
